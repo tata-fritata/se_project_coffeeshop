@@ -2,4 +2,45 @@
 
 .page {
   font-family: Inter, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: auto;
+}
+.header {
+  background-image: url(../image/background_header.svg);
+  background-color: #ffffff;
+  position: relative;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header__logo {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 125px;
+  height: 142px;
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 80px;
+  padding-top: 30px;
+}
+.nav__links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.nav__link {
+  color: #000000;
+  transition: color 0.3s linear;
+  text-decoration: none;
+}
+.nav__link:hover {
+  color: #2f80ed;
 }
