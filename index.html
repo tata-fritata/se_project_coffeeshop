@@ -43,14 +43,17 @@
           </ul>
         </nav>
         <!--This block (header__title) should be higher on the page with letters a bit smaller, but again, sizes are according to the brief-->
-        <h1 class="header__title">
-          <span class="span-accent">Specialty coffee</span> in the Practicum
-          Library
-        </h1>
-        <h2 class="header__description">
-          Welcome to our study zone! We've got the coffee to energize you and<br />
-          the cozy vibes to help you get creative.
-        </h2>
+        <div class="header__name">
+          <h1 class="header__title">
+            <span class="span-accent">Specialty coffee</span> in the Practicum
+            Library
+          </h1>
+          <h2 class="header__description">
+            Welcome to our study zone! We've got the coffee to energize you
+            and<br />
+            the cozy vibes to help you get creative.
+          </h2>
+        </div>
         <img
           src="image/inside_coffee_shop.png"
           class="header__image"
@@ -65,10 +68,12 @@
             <p class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</p>
           </div>
           <div class="header__footer-column">
-            <p class="header__paragraph header__paragraph_adress">200 Success Avenue, The Town of Practicum</p>
+            <p class="header__paragraph header__paragraph_adress">
+              200 Success Avenue, The Town of Practicum
+            </p>
           </div>
         </div>
-          <!--<div class="header__footer_columns">
+        <!--<div class="header__footer_columns">
             <ul class="header__footer_column">
               <li><p class="header__paragraph">Hours:</p></li>
               <li>
@@ -84,10 +89,117 @@
               200 Success Avenue, The Town of Practicum
             </p>
           </div>-->
-        </div>
       </header>
-      <main>
-        <section class="menu"></section>
+      <main class="main">
+        <section class="menu">
+          <div class="menu__title">Menu</div>
+          <div class="menu__subtitle">
+            <p class="menu_menu__subtitle">
+              We brew coffee from locally roasted, Fairtrade certified beans and
+              use<br />
+              biodegradable cups. All teas from our collection are $2/cup.
+            </p>
+          </div>
+          <div class="menu__cards">
+            <div class="card">
+              <!--<div class="card__title">Filter</div>-->
+              <ul>
+                <li class="card__list-item">
+                  <div class="card__title">Filter</div>
+                </li>
+                <li class="card__list-item">
+                  Regular(12oz)
+                  <div class="card__list-divider"></div>
+                  $1
+                </li>
+                <li class="card__list-item">
+                  Large(16oz)
+                  <div class="card__list-divider"></div>
+                  $1.25
+                </li>
+                <li class="card__list-item">
+                  XL(20oz)
+                  <div class="card__list-divider"></div>
+                  $1.5
+                </li>
+                <li class="card__list-item">
+                  Party-size(24oz,decaf)
+                  <div class="card__list-divider"></div>
+                  $1.75
+                </li>
+                <li class="card__list-item">
+                  Iced Coffee(16oz)
+                  <div class="card__list-divider"></div>
+                  $1.25
+                </li>
+              </ul>
+            </div>
+            <div class="card">
+              <ul>
+                <li class="card__list-item">
+                  <div class="card__title">Espresso</div>
+                </li>
+                <li class="card__list-item">
+                  Macchiato
+                  <div class="card__list-divider"></div>
+                  $2.25
+                </li>
+                <li class="card__list-item">
+                  Cortado
+                  <div class="card__list-divider"></div>
+                  $2.5
+                </li>
+                <li class="card__list-item">
+                  Mocha
+                  <div class="card__list-divider"></div>
+                  $3
+                </li>
+                <li class="card__list-item">
+                  Sunrise in the Bay Area (decaf)
+                  <div class="card__list-divider"></div>
+                  $10
+                </li>
+              </ul>
+            </div>
+            <div class="card">
+              <ul>
+                <li class="card__list-item">
+                  <div class="card__title">Baked Goods</div>
+                </li>
+                <li class="card__list-item">
+                  Almond Croissant
+                  <div class="card__list-divider"></div>
+                  $2
+                </li>
+                <li class="card__list-item">
+                  Banana Bread
+                  <div class="card__list-divider"></div>
+                  $1.75
+                </li>
+                <li class="card__list-item">
+                  Key Lime Pie
+                  <div class="card__list-divider"></div>
+                  $3
+                </li>
+                <li class="card__list-item">
+                  Blue Velvet Cake
+                  <div class="card__list-divider"></div>
+                  $3.75
+                </li>
+                <li class="card__list-item">
+                  Web Cookie
+                  <div class="card__list-divider"></div>
+                  $2
+                </li>
+                <li class="card__list-item">
+                  Fresh Bug’uette
+                  <div class="card__list-divider"></div>
+                  $0.25
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
         <section class="recipes"></section>
         <section class="reservation"></section>
         <section class="about"></section>
