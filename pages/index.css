@@ -1,4 +1,16 @@
 @import url(../vendor/normalize.css);
+@keyframes pulsate {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1.1);
+    opacity: 0.2;
+  }
+}
 
 .page {
   font-family: "Inter", Arial, sans-serif;
@@ -231,7 +243,7 @@
 .recipes__list-divider {
   flex-grow: 1;
 }
-
+/*RESERVATION__FORM*/
 .reservation {
   box-sizing: border-box;
   background-color: #d9e7ff;
@@ -247,7 +259,6 @@
   font-size: 44px;
   line-height: 52px;
   color: #000000;
-  max-width: 780px;
   padding-top: 100px;
   padding-bottom: 80px;
   border: none;
@@ -281,6 +292,9 @@
   display: inline;
   margin-left: 12px;
   vertical-align: middle;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
 .form__input {
   width: 385px;
@@ -299,11 +313,12 @@
   background: #2f80ed;
   width: 385px;
   color: #ffffff;
+  font-weight: 500;
 }
 .form__input-checkbox {
   border-radius: 2px;
-  min-width: 20px;
-  min-height: 20px;
+  width: 20px;
+  height: 20px;
   vertical-align: middle;
 }
 .form__checkbox {
@@ -315,4 +330,56 @@
   line-height: 30px;
   color: #838383;
   padding-left: 10px;
+  font-weight: normal;
+}
+/*ABOUT*/
+.about {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0a2750;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.about__title {
+  margin-top: 100px;
+  margin-left: 80px;
+  font-size: 44px;
+  line-height: 52px;
+  font-weight: 500;
+  z-index: 2;
+  max-width: 251px;
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  max-width: 660px;
+  margin-top: 119px;
+  margin-right: 80px;
+  margin-bottom: 173px;
+}
+
+.about__paragraph {
+  margin: 0;
+}
+
+.about__circle {
+  position: absolute;
+  background-color: #275ed6;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  z-index: 1;
+  top: -152px;
+  left: -129px;
+}
+.about__circle_animation_blurred {
+  animation: pulsate 1.3s ease-in-out infinite backwards;
 }
