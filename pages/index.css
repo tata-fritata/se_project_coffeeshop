@@ -1,8 +1,11 @@
 @import url(../vendor/normalize.css);
 @import url(./page.css);
-@import url(./header.css);
-@import url(./menu.css);
+@import url(../pages/header-block/header.css);
+@import url(../pages/header-block/navigation.css);
+@import url(../pages/menu-block/menu.css);
+@import url(../pages/menu-block/cards.css);
 @import url(./recipes.css);
-@import url(./reservation.css);
+@import url(../pages/reservation-block/reservation.css);
+@import url(../pages/reservation-block/form.css);
 @import url(./about.css);
 @import url(./footer.css);

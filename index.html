@@ -14,7 +14,7 @@
       content="coffee, recepie, coffeeshop, library, Practicum"
     />
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="shortcut icon" href="./favicon_coffee_bean.ico" />
+    <link rel="shortcut icon" href="./favicon.ico" />
     <link rel="stylesheet" href="./pages/fonts.css" />
     <title>Practicum Coffee Shop</title>
   </head>
@@ -74,14 +74,14 @@
         <section id="Menu" class="menu">
           <h2 class="menu__title">Menu</h2>
           <div class="menu__subtitle">
-            <p>
+            <p class="menu__paragraph">
               We brew coffee from locally roasted, Fairtrade certified beans and
               use biodegradable cups. All teas from our collection are $2/cup.
             </p>
           </div>
           <div class="menu__cards">
             <div class="card">
-              <ul>
+              <ul class="card__list">
                 <li class="card__list-item">
                   <div class="card__title">Filter</div>
                 </li>
@@ -113,7 +113,7 @@
               </ul>
             </div>
             <div class="card">
-              <ul>
+              <ul class="card__list">
                 <li class="card__list-item">
                   <div class="card__title">Espresso</div>
                 </li>
@@ -140,7 +140,7 @@
               </ul>
             </div>
             <div class="card">
-              <ul>
+              <ul class="card__list">
                 <li class="card__list-item">
                   <div class="card__title">Baked Goods</div>
                 </li>
@@ -181,7 +181,7 @@
         <section id="Recipes" class="recipes">
           <h2 class="recipes__title">Recipes</h2>
           <div class="recipes__subtitle">
-            <p>
+            <p class="recipes__paragraph">
               Check out some recipes we've collected for your home-brewing
               convenience:
             </p>
@@ -279,7 +279,9 @@
                   name="I-agree-with-the-terms-of-use"
                   id="I-agree-with-the-terms-of-use"
                 />
-                <label for="I-agree-with-the-terms-of-use" class="form__label"
+                <label
+                  for="I-agree-with-the-terms-of-use"
+                  class="form__label form__label_type_checkbox"
                   >I agree with the terms of use</label
                 >
               </fieldset>

@@ -16,13 +16,16 @@
   padding-top: 100px;
 }
 .menu__subtitle {
-  margin: 20px auto;
+  margin: 24px auto 0;
   text-align: center;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
   color: #ffffff;
   max-width: 780px;
+}
+.menu__paragraph {
+  margin: 0;
 }
 .menu__cards {
   display: flex;
@@ -31,33 +34,4 @@
   gap: 100px;
   padding-top: 100px;
   padding-bottom: 100px;
-}
-.card {
-  width: 600px;
-  flex-grow: 1;
-  max-width: 600px;
-}
-.card__title {
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
-  padding-bottom: 32px;
-  text-align: end;
-}
-.card__list-item {
-  font-family: "Noto Serif", "Times New Roman", serif;
-  display: flex;
-  margin-bottom: 16px;
-  gap: 10px;
-  max-width: 600px;
-  color: #ffffff;
-}
-.card__list-item:first-of-type {
-  margin-bottom: 0;
-}
-.card__list-divider {
-  flex-grow: 1;
-  position: relative;
-  border-bottom: 1px solid #ffffff;
-  bottom: 4px;
 }

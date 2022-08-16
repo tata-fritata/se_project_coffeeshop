@@ -22,8 +22,7 @@
 }
 
 .about__title {
-  margin-top: 100px;
-  margin-left: 80px;
+  margin: 100px 0 0 80px;
   font-size: 44px;
   line-height: 52px;
   font-weight: 500;
