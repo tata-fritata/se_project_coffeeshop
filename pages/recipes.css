@@ -30,6 +30,9 @@
 }
 .recipes__iframe {
 }
+.iframe {
+  border: none;
+}
 .recipes__video-caption {
   display: flex;
   padding-top: 24px;

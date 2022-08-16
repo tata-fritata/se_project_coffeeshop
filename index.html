@@ -73,7 +73,7 @@
       </header>
       <main class="main">
         <section id="Menu" class="menu">
-          <div class="menu__title">Menu</div>
+          <h2 class="menu__title">Menu</h2>
           <div class="menu__subtitle">
             <p>
               We brew coffee from locally roasted, Fairtrade certified beans and
@@ -181,7 +181,7 @@
           </div>
         </section>
         <section id="Recipes" class="recipes">
-          <div class="recipes__title">Recipes</div>
+          <h2 class="recipes__title">Recipes</h2>
           <div class="recipes__subtitle">
             <p>
               Check out some recipes we've collected for<br />
@@ -192,12 +192,11 @@
             <div class="recipes__video">
               <div class="recipes__iframe">
                 <iframe
+                  class="iframe"
                   id="ytplayer"
-                  type="text/html"
                   width="480"
                   height="273"
                   src="https://www.youtube.com/embed/j6VlT_jUVPc"
-                  frameborder="0"
                   allowfullscreen
                 ></iframe>
               </div>
@@ -210,12 +209,10 @@
             <div class="recipes__video">
               <div class="recipes__iframe">
                 <iframe
-                  id="ytplayer"
-                  type="text/html"
+                  class="iframe"
                   width="480"
                   height="273"
                   src="https://www.youtube.com/embed/st571DYYTR8"
-                  frameborder="0"
                   allowfullscreen
                 ></iframe>
               </div>
@@ -228,7 +225,7 @@
           </div>
         </section>
         <section id="Reservation" class="reservation">
-          <div class="reservation__title">Book a table</div>
+          <h2 class="reservation__title">Book a table</h2>
           <form class="form reservation__form">
             <fieldset class="form__fieldset">
               <label for="username" class="form__label">Name *</label>
@@ -260,7 +257,6 @@
                 type="datetime-local"
                 class="form__input"
                 id="date"
-                placeholder="mm/dd/yyyy --:-- --"
                 autocomplete="date"
               />
             </fieldset>
@@ -277,76 +273,81 @@
             <fieldset class="form__fieldset">
               <button type="button" class="form__button">Book a table</button>
             </fieldset>
-              <div class="form__checkbox">
-                <fieldset class="form__fieldset">
-                  <input
-                    type="checkbox"
-                    class="form__input-checkbox"
-                    name="I-agree-with-the-terms-of-use"
-                    id="I-agree-with-the-terms-of-use"
-                  />
-                  <label for="I-agree-with-the-terms-of-use" class="form__label"
-                    >I agree with the terms of use</label
-                  >
-                </fieldset>
-              </div>
-            </fieldset>
+            <div class="form__checkbox">
+              <fieldset class="form__fieldset">
+                <input
+                  type="checkbox"
+                  class="form__input-checkbox"
+                  name="I-agree-with-the-terms-of-use"
+                  id="I-agree-with-the-terms-of-use"
+                />
+                <label for="I-agree-with-the-terms-of-use" class="form__label"
+                  >I agree with the terms of use</label
+                >
+              </fieldset>
+            </div>
           </form>
         </section>
         <section class="about">
-            <h2 class="about__title">About the</br> coffee shop</h2>
-            <div class="about__content">
-              <p class="about__paragraph">
-                Our coffee shop is located in the Practicum Library's hall. It features 6 tables and free WiFi.
-              </p>
-              <p class="about__paragraph">
-                Our main mission is keeping guests cozy and energized.
-              </p>
-              <p class="about__paragraph">
-                Besides that, we try to reduce our environmental impact — so we don't sell single-use cups. But you can buy one of our reusable cups!
-              </p>
-            </div>
-  
-            <div class="about__circle"></div>
-              <div class="about__circle about__circle_animation_blurred"></div>
+          <h2 class="about__title">
+            About the<br />
+            coffee shop
+          </h2>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Our coffee shop is located in the Practicum Library's hall. It
+              features 6 tables and free WiFi.
+            </p>
+            <p class="about__paragraph">
+              Our main mission is keeping guests cozy and energized.
+            </p>
+            <p class="about__paragraph">
+              Besides that, we try to reduce our environmental impact — so we
+              don't sell single-use cups. But you can buy one of our reusable
+              cups!
+            </p>
+          </div>
+
+          <div class="about__circle"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
         </section>
       </main>
       <footer id="Footer" class="footer">
-          <div class="footer__content">
-            <div class="footer__column">
-              <img
-                src="./image/practicum_logo.svg"
-                alt="logo"
-                class="footer__logo"
-              />
-            </div>
-            <div class="footer__column footer__column_content_social">
-              <h4 class="footer__social-heading">Social media</h4>
-              <ul class="footer__list">
-                <li class="footer__list-item">
-                  <a href="#" class="footer__social-link">
-                    <img
-                      src="./image/facebook_white.svg"
-                      alt="Facebook icon"
-                      class="footer__social-icon"
-                    />
-                    Facebook
-                  </a>
-                </li>
-                <li class="footer__list-item">
-                  <a href="#" class="footer__social-link">
-                    <img
-                      src="./image/instagram_white.svg"
-                      alt="Instagram icon"
-                      class="footer__social-icon"
-                    />
-                    Instagram
-                  </a>
-                </li>
-              </ul>
-            </div>
+        <div class="footer__content">
+          <div class="footer__column">
+            <img
+              src="./image/practicum_logo.svg"
+              alt="logo"
+              class="footer__logo"
+            />
           </div>
-          <p class="footer__copyright">© 2022 Vita Doron</p>
+          <div class="footer__column footer__column_content_social">
+            <h4 class="footer__social-heading">Social media</h4>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./image/facebook_white.svg"
+                    alt="Facebook icon"
+                    class="footer__social-icon"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./image/instagram_white.svg"
+                    alt="Instagram icon"
+                    class="footer__social-icon"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2022 Vita Doron</p>
       </footer>
     </div>
   </body>
