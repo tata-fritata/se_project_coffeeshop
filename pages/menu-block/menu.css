@@ -24,9 +24,6 @@
   color: #ffffff;
   max-width: 780px;
 }
-.menu__paragraph {
-  margin: 0;
-}
 .menu__cards {
   display: flex;
   justify-content: center;

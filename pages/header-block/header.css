@@ -1,5 +1,5 @@
 .header {
-  background-image: url(../image/background_header.svg);
+  background-image: url(/image/background_header.svg);
   background-color: #ffffff;
   min-height: 720px;
   max-height: 800px;
@@ -10,7 +10,6 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   z-index: 1;
 }
 .header__logo {
@@ -28,9 +27,10 @@
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
-  margin: 0 80px 28px;
+  padding: 202px 80px 28px;
+  margin: 0;
 }
-.span-accent {
+.header__span-accent {
   display: block;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 60px;
@@ -58,16 +58,11 @@
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
-
+  align-items: flex-end;
   color: #6f6f6f;
-  margin: 0 80px 40px;
+  margin: auto 80px 40px;
 }
 .header__paragraph {
   font-weight: 500;
   margin: 0;
-}
-
-.header__paragraph_adress {
-  padding-top: 40px;
-  font-weight: 500;
 }

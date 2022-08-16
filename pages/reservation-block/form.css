@@ -16,7 +16,6 @@
   line-height: 20px;
 }
 .form__label_type_checkbox {
-  margin-left: 12px;
   vertical-align: middle;
   font-weight: 500;
   font-size: 16px;
@@ -41,7 +40,9 @@
   width: 385px;
   color: #ffffff;
   font-weight: 500;
+  border: none;
   border-radius: 4px;
+  padding: 0;
   opacity: 100%;
   transition: opacity 0.3s linear;
 }
@@ -53,8 +54,9 @@
   width: 20px;
   height: 20px;
   vertical-align: middle;
+  margin-right: 12px;
 }
-.form__checkbox {
+.form__fieldset:last-of-type {
   display: flex;
   justify-content: center;
 }

@@ -9,7 +9,9 @@
   font-size: 20px;
   line-height: 30px;
   padding-bottom: 32px;
-  text-align: end;
+  text-align: start;
+  color: #ffffff;
+  margin: 0;
 }
 .card__list {
   margin: 0;
@@ -22,9 +24,6 @@
   gap: 10px;
   max-width: 600px;
   color: #ffffff;
-}
-.card__list-item:first-of-type {
-  margin-bottom: 0;
 }
 .card__list-item:last-of-type {
   margin-bottom: 0;
