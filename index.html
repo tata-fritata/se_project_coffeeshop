@@ -42,7 +42,6 @@
             </li>
           </ul>
         </nav>
-        <!--This block (header__title) should be higher on the page with letters a bit smaller, but again, sizes are according to the brief-->
         <div class="header__name">
           <h1 class="header__title">
             <span class="span-accent">Specialty coffee</span> in the Practicum
@@ -59,8 +58,6 @@
           class="header__image"
           alt="picture of coffeeshop"
         />
-        <!-- This block(header__footer) doesn't have right sizes, even though all the sizes are according to the brief
-        line-heiht 20px, but on my page it looks much wider.-->
         <div class="header__footer">
           <div class="header__footer-column">
             <p class="header__paragraph">Hours:</p>
@@ -73,22 +70,6 @@
             </p>
           </div>
         </div>
-        <!--<div class="header__footer_columns">
-            <ul class="header__footer_column">
-              <li><p class="header__paragraph">Hours:</p></li>
-              <li>
-                <p class="header__paragraph">Monday – Friday (10:00 – 19:00)</p>
-              </li>
-              <li>
-                <p class="header__paragraph">
-                  Saturday – Sunday (11:00 – 18:00)
-                </p>
-              </li>
-            </ul>
-            <p class="header__footer_column header__paragraph-adress">
-              200 Success Avenue, The Town of Practicum
-            </p>
-          </div>-->
       </header>
       <main class="main">
         <section id="Menu" class="menu">
@@ -250,7 +231,7 @@
           <div class="reservation__title">Book a table</div>
           <form class="form reservation__form">
             <fieldset class="form__fieldset">
-              <label for="username" class="form__label">Name</label>
+              <label for="username" class="form__label">Name *</label>
               <input
                 type="text"
                 class="form__input"
@@ -261,7 +242,7 @@
             </fieldset>
             <fieldset class="form__fieldset">
               <label for="number-of-guests" class="form__label"
-                >Number of guests</label
+                >Number of guests *</label
               >
               <input
                 type="number"
@@ -274,16 +255,17 @@
               />
             </fieldset>
             <fieldset class="form__fieldset">
-              <label for="date" class="form__label">Date & time</label>
+              <label for="date" class="form__label">Date & time *</label>
               <input
                 type="datetime-local"
                 class="form__input"
                 id="date"
-                required
+                placeholder="mm/dd/yyyy --:-- --"
+                autocomplete="date"
               />
             </fieldset>
             <fieldset class="form__fieldset">
-              <label for="email" class="form__label">Your email</label>
+              <label for="email" class="form__label">Your email *</label>
               <input
                 type="email"
                 class="form__input"
@@ -312,9 +294,6 @@
           </form>
         </section>
         <section class="about">
-
-<!--ksdhfsdhfsdhfksjdhfkjsdhfkjsdhjkfhsd-->
-          
             <h2 class="about__title">About the</br> coffee shop</h2>
             <div class="about__content">
               <p class="about__paragraph">
@@ -330,18 +309,9 @@
   
             <div class="about__circle"></div>
               <div class="about__circle about__circle_animation_blurred"></div>
-            
-          
-
-<!--jshfjksdhflsdflkdsjflksdjflksdjlkfjsdlkjflksdj-->
-
-
         </section>
       </main>
       <footer id="Footer" class="footer">
-
-<!--sdjfhshfodfoidsuofiudsoifuoisdufoidsuofiusdoi-->
-
           <div class="footer__content">
             <div class="footer__column">
               <img
@@ -377,9 +347,6 @@
             </div>
           </div>
           <p class="footer__copyright">© 2022 Vita Doron</p>
-        
-<!--sdjfhshfodfoidsuofiudsoifuoisdufoidsuofiusdoi-->
-
       </footer>
     </div>
   </body>
